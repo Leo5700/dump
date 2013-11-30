@@ -1,3 +1,5 @@
+from numpy import mat
+
 def threePointPlane(p1, p2, p3, x, y):
 	'''
 	p1/2/3 = (координита по x, координита по y, координита по z)
