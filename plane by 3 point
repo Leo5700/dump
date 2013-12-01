@@ -23,7 +23,7 @@ def threePointPlane(p1, p2, p3, x, y):
 	(x1,y1,1),
 	(x2,y2,1),
 	(x3,y3,1) )))
-	D = det(mat((
+	D = - det(mat((
 	(x1,y1,z1),
 	(x2,y2,z2),
 	(x3,y3,z3) )))
